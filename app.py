@@ -50,11 +50,11 @@ def list_channels():
     })
 
 if __name__ == '__main__':
-    # Use port 5001 to avoid conflicts with macOS AirPlay Receiver on port 5000
-    port = 5001
+    # Get port from environment variable for Railway or use 5001 as fallback
+    port = int(os.environ.get("PORT", 5001))
     print(f"Starting Flask API server with CORS enabled on port {port}...")
     print("Available endpoints:")
-    print(f"  - http://127.0.0.1:{port}/api/results (Legacy endpoint)")
-    print(f"  - http://127.0.0.1:{port}/api/recommendations/<channel_id>")
+    print(f"  - /api/results (Legacy endpoint)")
+    print(f"  - /api/recommendations/<channel_id>")
     print(f"Available channels: {list(CHANNEL_MAPPING.keys())}")
     app.run(debug=True, host='0.0.0.0', port=port)
