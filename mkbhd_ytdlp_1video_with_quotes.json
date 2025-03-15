@@ -1,0 +1,132 @@
+{
+  "rankings": [
+    {
+      "product_name": "MacBook Air with M4 Chip",
+      "category": "Laptops",
+      "sentiment_distribution": {
+        "positive": 1
+      },
+      "mentions_count": 1,
+      "videos_count": 1,
+      "average_rating": 9.0,
+      "pro_quotes": [
+        {
+          "quote": "It's the most capable, powerful version yet",
+          "video_id": "Uwmp16aSgdk",
+          "video_title": "M4 Macbook Air Review: Too Easy!",
+          "timestamp_seconds": 18.219999313354492,
+          "video_url_with_timestamp": "https://www.youtube.com/watch?v=Uwmp16aSgdk&t=18"
+        },
+        {
+          "quote": "The price has dropped back down to 999 for the base machine again",
+          "video_id": "Uwmp16aSgdk",
+          "video_title": "M4 Macbook Air Review: Too Easy!",
+          "timestamp_seconds": 67.0,
+          "video_url_with_timestamp": "https://www.youtube.com/watch?v=Uwmp16aSgdk&t=67"
+        }
+      ],
+      "con_quotes": [
+        {
+          "quote": "Almost nothing else has physically changed with this laptop",
+          "video_id": "Uwmp16aSgdk",
+          "video_title": "M4 Macbook Air Review: Too Easy!",
+          "timestamp_seconds": 74.66000366210938,
+          "video_url_with_timestamp": "https://www.youtube.com/watch?v=Uwmp16aSgdk&t=74"
+        },
+        {
+          "quote": "It's like the LaCroix of MacBook paint colors",
+          "video_id": "Uwmp16aSgdk",
+          "video_title": "M4 Macbook Air Review: Too Easy!",
+          "timestamp_seconds": 146.83999633789062,
+          "video_url_with_timestamp": "https://www.youtube.com/watch?v=Uwmp16aSgdk&t=146"
+        }
+      ],
+      "video_references": [],
+      "predominant_sentiment": "positive",
+      "aggregate_score": 12.0,
+      "affiliate_eligible": true
+    },
+    {
+      "product_name": "Mac mini with M4 Chip",
+      "category": "Desktop Computers",
+      "sentiment_distribution": {
+        "positive": 1
+      },
+      "mentions_count": 1,
+      "videos_count": 1,
+      "average_rating": 8.5,
+      "pro_quotes": [
+        {
+          "quote": "The M4 Mac mini refresh was already one of the best tech deals of all 2024",
+          "video_id": "Uwmp16aSgdk",
+          "video_title": "M4 Macbook Air Review: Too Easy!",
+          "timestamp_seconds": 8.619999885559082,
+          "video_url_with_timestamp": "https://www.youtube.com/watch?v=Uwmp16aSgdk&t=8"
+        },
+        {
+          "quote": "Great computer, great price",
+          "video_id": "Uwmp16aSgdk",
+          "video_title": "M4 Macbook Air Review: Too Easy!",
+          "timestamp_seconds": 13.539999961853027,
+          "video_url_with_timestamp": "https://www.youtube.com/watch?v=Uwmp16aSgdk&t=13"
+        }
+      ],
+      "con_quotes": [],
+      "video_references": [],
+      "predominant_sentiment": "positive",
+      "aggregate_score": 11.333333333333332,
+      "affiliate_eligible": true
+    },
+    {
+      "product_name": "iPad Pro with M4 Chip",
+      "category": "Tablets",
+      "sentiment_distribution": {
+        "positive": 1
+      },
+      "mentions_count": 1,
+      "videos_count": 1,
+      "average_rating": 8.0,
+      "pro_quotes": [
+        {
+          "quote": "We already learned this from the M4 iPad Pro nine months ago",
+          "video_id": "Uwmp16aSgdk",
+          "video_title": "M4 Macbook Air Review: Too Easy!",
+          "timestamp_seconds": 198.9199981689453,
+          "video_url_with_timestamp": "https://www.youtube.com/watch?v=Uwmp16aSgdk&t=198"
+        }
+      ],
+      "con_quotes": [],
+      "video_references": [],
+      "predominant_sentiment": "positive",
+      "aggregate_score": 10.666666666666666,
+      "affiliate_eligible": true
+    },
+    {
+      "product_name": "Pixelmator Pro",
+      "category": "Software",
+      "sentiment_distribution": {
+        "positive": 1
+      },
+      "mentions_count": 1,
+      "videos_count": 1,
+      "average_rating": 7.5,
+      "pro_quotes": [
+        {
+          "quote": "The single click photo enhancer in Pixelmator Pro",
+          "video_id": "Uwmp16aSgdk",
+          "video_title": "M4 Macbook Air Review: Too Easy!",
+          "timestamp_seconds": 245.4199981689453,
+          "video_url_with_timestamp": "https://www.youtube.com/watch?v=Uwmp16aSgdk&t=245"
+        }
+      ],
+      "con_quotes": [],
+      "video_references": [],
+      "predominant_sentiment": "positive",
+      "aggregate_score": 10.0,
+      "affiliate_eligible": true
+    }
+  ],
+  "summary": "The analysis of top products mentioned in YouTube videos highlights several key trends and standout items in the tech sector. The products reviewed include the MacBook Air with M4 Chip, Mac mini with M4 Chip, iPad Pro with M4 Chip, and Pixelmator Pro software, each receiving positive sentiment overall.\n\n1. **Overall Trends**: All products analyzed hold a positive sentiment with average ratings ranging from 7.5 to 9.0 out of 10. This suggests a generally favorable reception from the YouTube community. The categories covered are diverse, spanning laptops, desktop computers, tablets, and software, indicating a broad interest in technology products.\n\n2. **Standout Products**: The MacBook Air with M4 Chip emerges as a particularly recommended product with the highest rating of 9.0/10. It is praised for its capabilities and value, especially after a price reduction to $999 for the base model. However, some criticisms point out minimal physical updates and aesthetic choices.\n\n3. **Frequent Categories**: The most frequently mentioned categories involve Apple products with the new M4 chip, suggesting a strong market interest and performance perception in Apple\u2019s latest hardware updates.\n\n4. **Pros and Cons**: Positive comments generally emphasize performance enhancements and value for money, particularly with the new M4 chip in Apple products. Negative remarks are few but mention lack of significant updates in design and aesthetics.\n\nThis summary indicates a strong market preference for recent Apple products with upgraded chips and competitive pricing, alongside appreciation for software enhancements in",
+  "total_products_found": 4,
+  "generation_date": "2025-03-14"
+}

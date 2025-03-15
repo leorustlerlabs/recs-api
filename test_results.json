@@ -1,0 +1,144 @@
+{
+  "rankings": [
+    {
+      "product_name": "Sony WH-1000XM5",
+      "category": "Headphones",
+      "sentiment_distribution": {
+        "positive": 1
+      },
+      "mentions_count": 1,
+      "videos_count": 1,
+      "average_rating": 9.0,
+      "pro_quotes": [
+        {
+          "quote": "The Sony WH-1000XM5 headphones pair perfectly with this phone for an immersive experience",
+          "video_id": "test_video_1",
+          "video_title": "OnePlus 12 Review: Return to Form!",
+          "timestamp_seconds": 140,
+          "video_url_with_timestamp": "https://www.youtube.com/watch?v=test_video_1&t=140"
+        }
+      ],
+      "con_quotes": [],
+      "video_references": [
+        {
+          "video_id": "test_video_1",
+          "video_title": "OnePlus 12 Review: Return to Form!",
+          "video_url": "https://www.youtube.com/watch?v=test_video_1",
+          "video_url_with_timestamp": "https://www.youtube.com/watch?v=test_video_1&t=140",
+          "timestamp_seconds": 140,
+          "context": "The Sony WH-1000XM5 headphones pair perfectly"
+        }
+      ],
+      "predominant_sentiment": "positive",
+      "aggregate_score": 12.0,
+      "affiliate_eligible": true
+    },
+    {
+      "product_name": "Samsung Galaxy S24 Ultra",
+      "category": "Smartphones",
+      "sentiment_distribution": {
+        "positive": 1
+      },
+      "mentions_count": 1,
+      "videos_count": 1,
+      "average_rating": 8.5,
+      "pro_quotes": [
+        {
+          "quote": "Samsung's Galaxy S24 Ultra is the ultimate flex in the Android world.",
+          "video_id": "test_video_2",
+          "video_title": "Samsung Galaxy S24 Ultra Review: The Ultimate Flex!",
+          "timestamp_seconds": 10,
+          "video_url_with_timestamp": "https://www.youtube.com/watch?v=test_video_2&t=10"
+        }
+      ],
+      "con_quotes": [
+        {
+          "quote": "The price is steep at $1299, which is hard to justify for most users.",
+          "video_id": "test_video_2",
+          "video_title": "Samsung Galaxy S24 Ultra Review: The Ultimate Flex!",
+          "timestamp_seconds": 160,
+          "video_url_with_timestamp": "https://www.youtube.com/watch?v=test_video_2&t=160"
+        }
+      ],
+      "video_references": [],
+      "predominant_sentiment": "positive",
+      "aggregate_score": 11.333333333333332,
+      "affiliate_eligible": true
+    },
+    {
+      "product_name": "Apple AirPods Pro 2",
+      "category": "Wireless Earbuds",
+      "sentiment_distribution": {
+        "positive": 1
+      },
+      "mentions_count": 1,
+      "videos_count": 1,
+      "average_rating": 8.0,
+      "pro_quotes": [
+        {
+          "quote": "Apple AirPods Pro 2 actually work pretty well with this phone despite being Apple products.",
+          "video_id": "test_video_2",
+          "video_title": "Samsung Galaxy S24 Ultra Review: The Ultimate Flex!",
+          "timestamp_seconds": 190,
+          "video_url_with_timestamp": "https://www.youtube.com/watch?v=test_video_2&t=190"
+        }
+      ],
+      "con_quotes": [],
+      "video_references": [],
+      "predominant_sentiment": "positive",
+      "aggregate_score": 10.666666666666666,
+      "affiliate_eligible": true
+    },
+    {
+      "product_name": "Pixel 8 Pro",
+      "category": "Smartphones",
+      "sentiment_distribution": {
+        "neutral": 1
+      },
+      "mentions_count": 1,
+      "videos_count": 1,
+      "average_rating": 7.0,
+      "pro_quotes": [
+        {
+          "quote": "Low light performance is good but not quite as good as the Pixel 8 Pro.",
+          "video_id": "test_video_2",
+          "video_title": "Samsung Galaxy S24 Ultra Review: The Ultimate Flex!",
+          "timestamp_seconds": 100,
+          "video_url_with_timestamp": "https://www.youtube.com/watch?v=test_video_2&t=100"
+        }
+      ],
+      "con_quotes": [],
+      "video_references": [],
+      "predominant_sentiment": "neutral",
+      "aggregate_score": 9.333333333333332,
+      "affiliate_eligible": true
+    },
+    {
+      "product_name": "Anker Nano III Charger",
+      "category": "Chargers",
+      "sentiment_distribution": {
+        "neutral": 1
+      },
+      "mentions_count": 1,
+      "videos_count": 1,
+      "average_rating": 7.0,
+      "pro_quotes": [
+        {
+          "quote": "so grab a Anker Nano III charger for fast charging.",
+          "video_id": "test_video_2",
+          "video_title": "Samsung Galaxy S24 Ultra Review: The Ultimate Flex!",
+          "timestamp_seconds": 220,
+          "video_url_with_timestamp": "https://www.youtube.com/watch?v=test_video_2&t=220"
+        }
+      ],
+      "con_quotes": [],
+      "video_references": [],
+      "predominant_sentiment": "neutral",
+      "aggregate_score": 9.333333333333332,
+      "affiliate_eligible": true
+    }
+  ],
+  "summary": "The analysis of top products mentioned across YouTube videos reveals a positive sentiment towards high-tech consumer electronics, with a particular emphasis on audio devices and smartphones. The standout product, Sony WH-1000XM5 headphones, received the highest average rating of 9.0/10 and exclusively positive mentions, highlighting its strong market reception and user satisfaction. This product is particularly praised for its immersive experience, suggesting a high recommendation for consumers seeking quality audio.\n\nSmartphones, as a category, appear frequently with both the Samsung Galaxy S24 Ultra and Pixel 8 Pro featured. The Samsung Galaxy S24 Ultra, despite its high cost, is noted for its superior status in the Android ecosystem, indicating a strong recommendation for users prioritizing advanced features and brand prestige. However, its high price is a noted drawback.\n\nThe categories of wireless earbuds and chargers are also represented, with Apple AirPods Pro 2 and Anker Nano III Charger respectively. Both products receive neutral to positive sentiments, with the AirPods Pro 2 noted for compatibility across device ecosystems.\n\nIn summary, the trend leans towards premium, high-functionality devices with a focus on enhancing user experience through technological advancements. The main cons noted relate to pricing, suggesting a market trend where premium features come at significant costs. This insight could guide consumers in balancing cost against cutting-edge features in their purchasing decisions.",
+  "total_products_found": 5,
+  "generation_date": "2025-03-14"
+}
