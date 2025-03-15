@@ -7,6 +7,9 @@ app = Flask(__name__)
 # Enable CORS for all routes
 CORS(app)
 
+# For Vercel deployment
+app.debug = False  # Disable debug mode in production
+
 # Map of channel IDs to result files
 CHANNEL_MAPPING = {
     'test': 'test_results.json',
