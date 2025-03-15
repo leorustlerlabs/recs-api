@@ -49,7 +49,8 @@ def list_channels():
     channels = list(CHANNEL_MAPPING.keys())
     return jsonify({
         'available_channels': channels,
-        'example_usage': 'http://example.com/api/recommendations/mkbhd'
+        'example_usage': 'https://recs-2ac9vmvl8-leorustlerlabs-projects.vercel.app/api/recommendations/mkbhd',
+        'api_documentation': 'https://github.com/leorustlerlabs/recs-api'
     })
 
 if __name__ == '__main__':

@@ -2,7 +2,17 @@
 
 A simple API server for serving product recommendation results from the RECS system. The API serves results for different YouTube channels/influencers.
 
-## Setup
+## Live API
+
+The API is deployed and available at:
+https://recs-2ac9vmvl8-leorustlerlabs-projects.vercel.app/
+
+### Example Endpoints:
+- List available channels: [/](https://recs-2ac9vmvl8-leorustlerlabs-projects.vercel.app/)
+- MKBHD recommendations: [/api/recommendations/mkbhd](https://recs-2ac9vmvl8-leorustlerlabs-projects.vercel.app/api/recommendations/mkbhd)
+- Test data: [/api/recommendations/test](https://recs-2ac9vmvl8-leorustlerlabs-projects.vercel.app/api/recommendations/test)
+
+## Local Development Setup
 
 1. Create a virtual environment:
    ```
@@ -19,7 +29,7 @@ A simple API server for serving product recommendation results from the RECS sys
    pip install -r requirements.txt
    ```
 
-## Running the Server
+## Running the Server Locally
 
 ```
 source venv/bin/activate
@@ -39,6 +49,35 @@ The server runs on http://0.0.0.0:5001 by default (to avoid conflicts with macOS
 To add a new channel:
 1. Add the channel's results JSON file to the project directory
 2. Update the `CHANNEL_MAPPING` dictionary in `app.py` to include the new channel ID and its corresponding JSON file
+3. Commit and push the changes to GitHub to trigger a new deployment
+
+## Deployment
+
+This project is deployed on Vercel. Any changes pushed to the main branch will automatically trigger a new deployment.
+
+### Manual Deployment
+
+To manually deploy the project:
+
+1. Install Vercel CLI:
+   ```
+   npm install -g vercel
+   ```
+
+2. Log in to Vercel:
+   ```
+   vercel login
+   ```
+
+3. Deploy the project:
+   ```
+   vercel --prod
+   ```
+
+   Or use the provided script:
+   ```
+   ./deploy-to-vercel.sh
+   ```
 
 ## Project Structure
 
@@ -46,3 +85,5 @@ To add a new channel:
 - `test_results.json` - Default test results data
 - `mkbhd_ytdlp_1video_with_quotes.json` - Results for MKBHD channel
 - `requirements.txt` - Python dependencies
+- `vercel.json` - Vercel deployment configuration
+- `deploy-to-vercel.sh` - Script for deploying to Vercel
